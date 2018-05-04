@@ -1,3 +1,4 @@
+require 'pry'
 def my_each(array)
   counter = 0
 
@@ -7,7 +8,7 @@ def my_each(array)
       counter += 1
     end
   end
-  
+
   array
   binding.pry
 end
